@@ -1,0 +1,97 @@
+
+$centrado:center; 
+$bordeazulado:blue; 
+$extraextralarge:xx-large; 
+$colordefondo:grey; 
+$borderadios:50px;
+$extraextrachico: xx-small;
+$estatico:static; 
+$letratitulo:Arial, Helvetica, sans-serif;
+$letratitulomedida:12px;
+$titulocolor:#333333;
+$colordefondoboton:#318aac; 
+$colorbordeboton:#318aac; 
+$letrabotonmedida:15px;
+$posicionboton:relative;
+$colorhover:rgba(255, 255, 255, 1);
+
+
+
+
+
+body nav h1 {
+
+    text-align: $centrado;
+    border-color: $bordeazulado;
+    font-size: $extraextralarge; 
+    background-color: $colordefondo;
+    position:$estatico;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: $borderadios;
+    
+   
+  }
+  
+    main nav img { 
+    width: 700px;
+    border: 10px solid #2e518b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+ 
+ footer nav h3 {
+
+    text-align: $centrado ;
+    border-color: $bordeazulado;
+    font-size: $extraextrachico; 
+    background-color: $colordefondo;
+   
+ }
+
+ main section  {
+
+  text-align: $centrado;
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #2e518b ; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-top: 10px;
+
+ }
+
+ .botones {
+  width: 100%;
+  text-align: $centrado;
+}
+
+.titulo {
+  font-family: $letratitulo;
+  font-size: $letratitulomedida;
+  text-decoration: none;
+  color: $titulocolor ;
+}
+
+.boton4 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: $letrabotonmedida ;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: $colordefondoboton;
+  border: 2px solid;
+  border-color: $colorbordeboton;
+  position: $posicionboton;
+}
+.boton4:hover{
+  color:$colorhover;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+

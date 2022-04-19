@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body nav h1 {
+  text-align: center;
+  border-color: blue;
+  font-size: xx-large;
+  background-color: grey;
+  position: static;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 50px; }
+
+main nav img {
+  width: 700px;
+  border: 10px solid #2e518b;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+footer nav h3 {
+  text-align: center;
+  border-color: blue;
+  font-size: xx-small;
+  background-color: grey; }
+
+main section {
+  text-align: center;
+  border: 1px solid #2e518b;
+  /*anchura, estilo y color borde*/
+  padding: 10px;
+  /*espacio alrededor texto*/
+  background-color: #2e518b;
+  /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  text-transform: uppercase;
+  /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif;
+  /*tipografía texto*/
+  border-radius: 50px;
+  /*bordes redondos*/
+  margin-top: 10px; }
+
+.botones {
+  width: 100%;
+  text-align: center; }
+
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #333333; }
+
+.boton4 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative; }
+
+.boton4:hover {
+  color: white;
+  box-shadow: 0 4px 16px #318aac;
+  transition: all 0.2s ease; }
